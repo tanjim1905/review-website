@@ -1,3 +1,14 @@
 .footer {
   background-color: #fff9f3;
 }
+
+.social-icons {
+  text-align: center;
+  color: #ffc178;
+}
+
+.social-icons i {
+  margin-left: 5px;
+  padding: 5px;
+  font-size: 24px;
+}

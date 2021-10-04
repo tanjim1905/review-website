@@ -14,11 +14,11 @@ const Home = () => {
         <div>
             <Header></Header>
             <Container>
-            <Row xs={1} md={2} lg={4} className="g-4 my-5">
-            {
-                homeCourse.slice(0, 4).map((course) => <Course key={course.key} course={course}></Course>)
-            }
-            </Row>
+                <Row xs={1} md={2} lg={4} className="g-4 my-5">
+                {
+                    homeCourse.slice(0, 4).map((course) => <Course key={course.key} course={course}></Course>)
+                }
+                </Row>
             </Container>
             
         </div>
